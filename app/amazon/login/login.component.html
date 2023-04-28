@@ -1,0 +1,12 @@
+<p>login works!</p>
+
+
+<div class="container">
+  <form [formGroup]="form">
+    <label for=""> username</label>
+    <input type="text" class="form-control " formControlName="username">
+    <label for=""> Password</label>
+    <input type="text" class="form-control " formControlName="password">
+    <button class="btn btn-success" (click)="login()">login</button>
+  </form>
+</div>
